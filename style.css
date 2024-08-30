@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   background: #2b2b2b;
   font-family: "Work Sans", sans-serif;
 }
@@ -78,7 +79,6 @@ p {
   color: #fff;
   text-align: left;
   width: 510px;
-  height: 222px;
   gap: 0px;
   opacity: 0px;
 }
@@ -89,7 +89,6 @@ p {
   text-align: left;
   color: #fff;
   width: 510px;
-  height: 105px;
   gap: 0px;
   opacity: 0px;
 }
@@ -146,18 +145,13 @@ p {
 .brovse .include {
   margin-top: 60px;
   display: flex;
-  text-align: center;
-  gap: 30px;
-}
-.brovse .include-2 {
-  margin-top: 30px;
-  display: flex;
-  text-align: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .discover {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .discover .header-4 {
   font-size: 38px;
@@ -169,4 +163,344 @@ p {
   gap: 0px;
   opacity: 0px;
   color: white;
+}
+.discover .paragraf {
+  width: 763px;
+  height: 46px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  color: white;
+  text-align: left;
+}
+.discover .avatar {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  color: white;
+}
+.discover .cosmos {
+  color: white;
+}
+.discover .cost {
+  color: grey;
+}
+.discover .border {
+  gap: 83spx;
+  padding-top: 35px;
+  display: flex;
+  text-align: center;
+}
+.discover .wrappe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+}
+.discover .box-bor {
+  background-color: #434343;
+  width: 240px;
+  height: 316px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+}
+
+.join {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.join .h-second {
+  width: 425px;
+  height: 92px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+}
+.join .first {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+  width: 425px;
+  height: 70px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+}
+.join .input {
+  width: 425px;
+  height: 60px;
+  padding: 0px 0px 0px 20px;
+  gap: 12px;
+  border-radius: 20px;
+  opacity: 0px;
+  background-color: white;
+  border: none;
+}
+.join .btn-solid {
+  margin-top: 40px;
+  margin-left: -217px;
+  width: 211px;
+  height: 60px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  opacity: 0px;
+  color: white;
+  background-color: #a259ff;
+  border: none;
+}
+.join .btn-solid:active {
+  background-color: #fff;
+  color: #a259ff;
+  border: 1px solid #a259ff;
+}
+.join .big-box {
+  display: flex;
+  text-align: center;
+  gap: 50px;
+  background-color: #434343;
+  padding: 10px 10px 10px 10px;
+  width: 1, 50px;
+  padding: 60px;
+  gap: 80px;
+  border-radius: 20px;
+  opacity: 0px;
+}
+.join .school {
+  margin-top: 70px;
+}
+
+.footer {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #434343;
+  gap: 89px;
+}
+.footer .h-first {
+  width: 95px;
+  height: 35px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+}
+.footer .h-third {
+  width: 297px;
+  height: 35px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+}
+.footer .mono {
+  color: grey;
+}
+.footer .font {
+  color: grey;
+  width: 330px;
+  height: 44px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+.footer .line {
+  display: flex;
+  gap: 89px;
+}
+
+.top-creator {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.top-creator .h-four {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  width: 703px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+}
+.top-creator .four {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+  color: #fff;
+  width: 510px;
+  height: 105px;
+  gap: 0px;
+  opacity: 0px;
+}
+.top-creator .btn-most {
+  width: 247px;
+  height: 60px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  border: 2px solid #a259ff;
+  opacity: 0px;
+  background-color: #2b2b2b;
+  color: white;
+}
+.top-creator .btn-most:active {
+  background-color: #a259ff;
+}
+.top-creator .top {
+  display: flex;
+  text-align: center;
+  gap: 100px;
+}
+.top-creator .card {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+  opacity: 0px;
+  background-color: #434343;
+}
+.top-creator .demo {
+  width: 200px;
+  height: 31px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  text-align: center;
+}
+.top-creator .upper {
+  color: grey;
+}
+.top-creator .number {
+  color: white;
+}
+.top-creator .flex {
+  margin-top: 29px;
+  margin-left: 11px;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+.top-creator .img {
+  margin-left: 40px;
+}
+.top-creator .nute {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navigator {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .images {
+    width: 300px;
+  }
+  .header-1 {
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 45px;
+  }
+  .paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+  }
+  .wrap {
+    gap: 20px;
+  }
+  .brovse {
+    padding-top: 100px;
+  }
+  .top-creator {
+    padding-top: 300px;
+  }
+  .h-four {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36 px;
+    width: 100px;
+  }
+  .four {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 223px;
+  }
+  .top {
+    gap: 0px;
+  }
+  .btn-get {
+    padding: 0px 50px 0px 50px;
+    margin: 0px 0px 0px 0px;
+  }
+  .nom {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .lale {
+    display: none;
+  }
+  .header-1 {
+    font-size: 40px;
+  }
+  .footer {
+    margin-top: 150px;
+  }
+  .line {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .input {
+    margin-top: 40px;
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header-1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+  }
+  .paragraph {
+    font-size: 10px;
+    width: 200px;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .big-box {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
